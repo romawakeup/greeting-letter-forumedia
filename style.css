@@ -148,6 +148,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
     color: #ffffff;
 }
 
@@ -369,7 +370,7 @@
     }
 
     .greeting-letter__team img {
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
     }
 
@@ -384,8 +385,8 @@
     }
 
     .contacts svg {
-        width: 24px;
-        height: 24px;
+        width: 27px;
+        height: 27px;
     }
 }
 
@@ -455,14 +456,5 @@
 
     .contacts {
         gap: 10px;
-    }
-
-    .contacts a:last-child {
-        font-size: 14px;
-    }
-
-    .contacts svg {
-        width: 20px;
-        height: 20px;
     }
 }
