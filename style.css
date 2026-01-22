@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Курсивные версии */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+.greeting-letter {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.greeting-letter__wrapper {
+    padding: 60px 40px 40px 40px;
+    width: 600px;
+    background-color: #313746;
+}
+
+.greeting-letter__header {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.greeting-letter__header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 73px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+.greeting-letter__header p:nth-child(1) {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 97%;
+}
+
+.greeting-letter__header p:nth-child(2) {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 113%;
+}
+
+.greeting-letter__content {
+    padding: 60px 0 0 0;
+}
+
+.greeting-letter__content p:nth-child(1) {
+    position: relative;
+    padding-bottom: 45px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 162%;
+}
+
+.greeting-letter__content p:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 73px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+.greeting-letter__content p:nth-child(1) a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 162%;
+    color: #25DEFF;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.greeting-letter__content p:nth-child(1) a:hover {
+    text-decoration: underline;
+}
+
+.greeting-letter__content p:nth-child(2) {
+    padding: 45px 0 45px 0;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 162%;
+}
+
+.greeting-letter__list {
+    padding-bottom: 100px;
+}
+
+.greeting-letter__list p {
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 129%;
+}
+
+.greeting-letter__list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.greeting-letter__list ul li {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 162%;
+}
+
+.greeting-letter__list ul li span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 162%;
+    color: #25DEFF;
+}
+
+
+.greeting-letter__footer {}
+
+.greeting-letter__team {
+    padding-bottom: 80px;
+}
+
+.greeting-letter__team p {
+    padding-bottom: 23px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 134%;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contacts a svg {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.contacts a:hover svg {
+    transform: scale(1.1);
+}
+
+.contacts a:last-child {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 134%;
+    color: #25DEFF;
+    transition: all 0.3s ease;
+}
+
+.contacts a:last-child:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 768px) {
+    .greeting-letter__wrapper {
+        width: 100%;
+        padding: 30px 20px 30px 20px;
+    }
+
+    .greeting-letter__header {
+        padding-bottom: 40px;
+    }
+
+    .greeting-letter__header p:nth-child(1) {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .greeting-letter__header p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .greeting-letter__content {
+        padding: 40px 0 0 0;
+    }
+
+    .greeting-letter__content p:nth-child(1) {
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .greeting-letter__content p:nth-child(1) a {
+        font-size: 16px;
+        word-break: break-all;
+    }
+
+    .greeting-letter__content p:nth-child(2) {
+        padding: 30px 0 30px 0;
+        font-size: 18px;
+    }
+
+    .greeting-letter__list {
+        padding-bottom: 60px;
+    }
+
+    .greeting-letter__list p {
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .greeting-letter__list ul {
+        gap: 30px;
+    }
+
+    .greeting-letter__list ul li {
+        font-size: 16px;
+    }
+
+    .greeting-letter__list ul li span {
+        font-size: 18px;
+    }
+
+    .greeting-letter__team {
+        padding-bottom: 50px;
+    }
+
+    .greeting-letter__team p {
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .greeting-letter__team img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .contacts a:last-child {
+        font-size: 16px;
+        word-break: break-all;
+    }
+
+    .contacts svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .greeting-letter__wrapper {
+        padding: 20px 15px 20px 15px;
+    }
+
+    .greeting-letter__header {
+        padding-bottom: 30px;
+    }
+
+    .greeting-letter__header p:nth-child(1) {
+        font-size: 28px;
+    }
+
+    .greeting-letter__header p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .greeting-letter__content {
+        padding: 30px 0 0 0;
+    }
+
+    .greeting-letter__content p:nth-child(1) {
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+
+    .greeting-letter__content p:nth-child(1) a {
+        font-size: 14px;
+    }
+
+    .greeting-letter__content p:nth-child(2) {
+        font-size: 16px;
+        padding: 25px 0 25px 0;
+    }
+
+    .greeting-letter__list {
+        padding-bottom: 50px;
+    }
+
+    .greeting-letter__list p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    .greeting-letter__list ul {
+        gap: 25px;
+    }
+
+    .greeting-letter__list ul li {
+        font-size: 14px;
+    }
+
+    .greeting-letter__list ul li span {
+        font-size: 16px;
+    }
+
+    .greeting-letter__team {
+        padding-bottom: 40px;
+    }
+
+    .greeting-letter__team p {
+        font-size: 18px;
+    }
+
+    .contacts {
+        gap: 10px;
+    }
+
+    .contacts a:last-child {
+        font-size: 14px;
+    }
+
+    .contacts svg {
+        width: 20px;
+        height: 20px;
+    }
+}
